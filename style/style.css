@@ -1,6 +1,7 @@
 
 :root{
     --Color-Primario:#EFF1FA;
+    --Color-Secundario:#0A3871;
 }
 
 
@@ -39,5 +40,22 @@ main{
 }
 
 .seccion__izquierda{
-    
+    width: 60%;
+    margin: 168px 0px 0px 140px;
+}
+
+.texto__cifrardo{
+    width: 680px;
+    height: 288px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    outline: none;
+    border: none;
+    resize: none;
+    margin: 40px 0px 0px 40px;
+}
+
+.texto__cifrardo::placeholder,:focus{
+    color: var(--Color-Secundario);
 }
