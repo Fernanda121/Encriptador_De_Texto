@@ -8,8 +8,10 @@
     --Color-Secundario: #0A3871;
     --Color-Tercero: #495057;
     --Color-Cuarto: #FFFFFF;
-    --Color-Quinto:#D8DFE8;
-    --Color-Sexto:#00000014;
+    --Color-Quinto: #D8DFE8;
+    --Color-Sexto: #00000014;
+    --Color-Octavo: #343A40;
+    --Color-Noveno: #495057;
 }
 
 * {
@@ -129,7 +131,7 @@ main {
     color: var(--Color-Secundario);
 }
 
-.seccion__derecha{
+.seccion__derecha {
     width: 400px;
     height: 815px;
     margin-top: 40px;
@@ -139,4 +141,33 @@ main {
     text-align: center;
     padding: 20px;
     box-shadow: 0px 24px 32px -8px var(--Color-Sexto);
+}
+
+.tarjeta__contenedor {
+    width: 336px;
+    margin: auto;
+    margin-top: 50%;
+    background: var(--Color-Cuarto);
+}
+
+.imagen__persona {
+    background: var(--Color-Cuarto);
+}
+
+.mensaje__uno {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    color: var(--Color-Octavo);
+    background: var(--Color-Cuarto);
+}
+
+.mensaje__dos {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: var(--Color-Noveno);
+    background: var(--Color-Cuarto);
 }
