@@ -1,50 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-:root{
-    --Color-Primario:#EFF1FA;
-    --Color-Secundario:#0A3871;
+
+:root {
+    --Fuente: 'Inter',sans-serif;
+    --Color-Primario: #EFF1FA;
+    --Color-Secundario: #0A3871;
+
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     background: var(--Color-Primario);
+    font-family: var(--Fuente);
 }
 
-body{
+body {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-header{
+header {
     position: absolute;
     margin: 40px 0px 0px 40px;
 }
 
-header .logo__alura{
+header .logo__alura {
     display: flex;
     align-items: flex-start;
 }
 
-main{
+main {
     display: flex;
     justify-content: flex-start;
     padding: 0 40px;
     flex: 1;
 }
 
-.seccion__izquierda{
+.seccion__izquierda {
     width: 60%;
     margin: 168px 0px 0px 140px;
 }
 
-.texto__cifrardo{
+.texto__cifrardo {
     width: 680px;
     height: 288px;
     font-weight: 400;
@@ -56,6 +61,7 @@ main{
     margin: 40px 0px 0px 40px;
 }
 
-.texto__cifrardo::placeholder,:focus{
+.texto__cifrardo::placeholder,
+:focus {
     color: var(--Color-Secundario);
 }
