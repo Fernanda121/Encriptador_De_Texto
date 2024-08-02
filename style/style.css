@@ -69,10 +69,10 @@ main {
     border: none;
     resize: none;
     margin: 40px 0px 0px 40px;
+    color: var(--Color-Secundario);
 }
 
-.texto__cifrardo::placeholder,
-:focus {
+.texto__cifrardo::placeholder{
     color: var(--Color-Secundario);
 }
 
@@ -170,4 +170,17 @@ main {
     text-align: center;
     color: var(--Color-Noveno);
     background: var(--Color-Cuarto);
+}
+
+.texto__descifrado {
+    width: 336px;
+    height: 720px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 20px;
+    border: none;
+    resize: none;
+    color: var(--Color-Noveno);
+    background: transparent;
 }
