@@ -3,11 +3,12 @@
 /*_______________________________________*/
 
 :root {
-    --Fuente: 'Inter',sans-serif;
+    --Fuente: 'Inter', sans-serif;
     --Color-Primario: #EFF1FA;
     --Color-Secundario: #0A3871;
-    --Color-Tercero :#495057;
-    --Color-Cuarto: #FFFFFF;;
+    --Color-Tercero: #495057;
+    --Color-Cuarto: #FFFFFF;
+    --Color-Quinto:#D8DFE8;
 }
 
 * {
@@ -71,7 +72,7 @@ main {
     color: var(--Color-Secundario);
 }
 
-.encriptador__avertencia{
+.encriptador__avertencia {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,7 +81,7 @@ main {
     top: 645px;
 }
 
-.texto__aviso{
+.texto__aviso {
     width: 100%;
     font-weight: 400;
     font-size: 12px;
@@ -89,7 +90,7 @@ main {
     opacity: 0.8;
 }
 
-.contenedor__botones{
+.contenedor__botones {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -98,7 +99,7 @@ main {
     top: 685px;
 }
 
-.boton__encriptar{
+.boton__encriptar {
     width: 328px;
     height: 67px;
     padding: 24px;
@@ -110,4 +111,18 @@ main {
     border-radius: 24px;
     background: var(--Color-Secundario);
     color: var(--Color-Cuarto);
+}
+
+.boton__desencripta {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    border: 1px solid var(--Color-Secundario);
+    border-radius: 24px;
+    background: var(--Color-Quinto);
+    color: var(--Color-Secundario);
 }
