@@ -12,6 +12,7 @@
     --Color-Sexto: #00000014;
     --Color-Octavo: #343A40;
     --Color-Noveno: #495057;
+    --Color-Decimo:#072B61;
 }
 
 * {
@@ -173,7 +174,7 @@ main {
 }
 
 .texto__descifrado {
-    width: 336px;
+    width: 400px;
     height: 815px;
     position: absolute;
     top: 0;
@@ -187,5 +188,18 @@ main {
     resize: none;
     color: var(--Color-Noveno);
     background: transparent;
+}
+
+.boton__copiar{
+    width: 224px;
+    height: 65px;
+    margin: 20px;
+    font-size: 16px;
+    background: var(--Color-Decimo);
+    color: var(--Color-Cuarto);
+    border: 1px solid var(--Color-Octavo);
+    border-radius: 24px;
+    box-shadow: 0px 24px 32px -8px var(--Color-Sexto);
+    visibility: hidden;
 }
 
