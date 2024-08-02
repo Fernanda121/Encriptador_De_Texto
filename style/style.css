@@ -6,7 +6,7 @@
     --Fuente: 'Inter',sans-serif;
     --Color-Primario: #EFF1FA;
     --Color-Secundario: #0A3871;
-
+    --Color-Tercero :#495057;
 }
 
 * {
@@ -71,5 +71,19 @@ main {
 }
 
 .encriptador__avertencia{
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 645px;
+}
+
+.texto__aviso{
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--Color-Tercero);
+    opacity: 0.8;
 }
