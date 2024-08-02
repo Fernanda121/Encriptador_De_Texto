@@ -174,13 +174,18 @@ main {
 
 .texto__descifrado {
     width: 336px;
-    height: 720px;
+    height: 815px;
+    position: absolute;
+    top: 0;
+    left: 0;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     padding: 20px;
+    border-radius: 32px;
     border: none;
     resize: none;
     color: var(--Color-Noveno);
     background: transparent;
 }
+
