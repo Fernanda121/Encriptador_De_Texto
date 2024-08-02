@@ -7,19 +7,28 @@
 </head>
 <body>
     <header>
-        <img src="img/Logo.png" alt="logoAlura">
+        <img src="img/Logo.png" alt="logoAlura" class="logo__alura">
     </header>
     <main>
-        <section>
-            <textarea class="texto_cifrardo" type="text" placeholder="Ingrese su texto" ></textarea>
-            <div>
-                <button>Encriptar</button>
-                <button>Desencriptar</button>
+        <section class="seccion__izquierda">
+            <textarea class="texto_cifrardo" type="text" placeholder="Ingrese el texto aqui" ></textarea>
+            <div class="encriptador__mensaje__de__avertencia">
+                <img src="img/Exclamacion.png" alt="imagenAviso" class="imagen__aviso">
+                <p class="texto__aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor__de__encriptador">
+                <button type="button" class="boton__encriptar">Encriptar</button>
+                <button type="button" class="boton__desencripta">Desencriptar</button>
             </div>
         </section>
-        <section>
+        <section class="seccion__derecha">
+            <div class="tarjeta__contenedor">
+                <img src="img/Muñeco.png" alt="muñecoAlura" class="imagen__persona">
+                <p class="mensaje_uno">Ningún mensaje fue encontrado</p>
+                <p class="mensaje_dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
             <textarea class="texto_decrifrado"></textarea>
-            <button>Copiar</button>
+            <button type="button" class="boton__copiar">Copiar</button>
         </section>
     </main>
 </body>
