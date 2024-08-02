@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/*_______________________________________*/
 
 :root {
     --Fuente: 'Inter',sans-serif;
@@ -7,7 +8,6 @@
     --Color-Secundario: #0A3871;
 
 }
-
 
 * {
     margin: 0;
@@ -27,6 +27,8 @@ img {
     max-width: 100%;
 }
 
+/*_______________________________________*/
+
 header {
     position: absolute;
     margin: 40px 0px 0px 40px;
@@ -36,6 +38,8 @@ header .logo__alura {
     display: flex;
     align-items: flex-start;
 }
+
+/*_______________________________________*/
 
 main {
     display: flex;
@@ -64,4 +68,8 @@ main {
 .texto__cifrardo::placeholder,
 :focus {
     color: var(--Color-Secundario);
+}
+
+.encriptador__avertencia{
+    
 }
