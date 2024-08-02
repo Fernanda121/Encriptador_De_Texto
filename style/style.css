@@ -1,6 +1,13 @@
+
+:root{
+    --Color-Primario:#EFF1FA;
+}
+
+
 *{
     margin: 0;
     padding: 0;
+    background: var(--Color-Primario);
 }
 
 body{
@@ -22,4 +29,15 @@ header{
 header .logo__alura{
     display: flex;
     align-items: flex-start;
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 40px;
+    flex: 1;
+}
+
+.seccion__izquierda{
+    
 }
