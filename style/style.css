@@ -87,3 +87,12 @@ main {
     color: var(--Color-Tercero);
     opacity: 0.8;
 }
+
+.contenedor__botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    gap: 8px;
+    top: 685px;
+}
