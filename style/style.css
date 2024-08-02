@@ -7,6 +7,7 @@
     --Color-Primario: #EFF1FA;
     --Color-Secundario: #0A3871;
     --Color-Tercero :#495057;
+    --Color-Cuarto: #FFFFFF;;
 }
 
 * {
@@ -95,4 +96,18 @@ main {
     position: absolute;
     gap: 8px;
     top: 685px;
+}
+
+.boton__encriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    border: 1px solid var(--Color-Secundario);
+    border-radius: 24px;
+    background: var(--Color-Secundario);
+    color: var(--Color-Cuarto);
 }
