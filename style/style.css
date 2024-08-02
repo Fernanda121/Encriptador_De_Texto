@@ -9,6 +9,7 @@
     --Color-Tercero: #495057;
     --Color-Cuarto: #FFFFFF;
     --Color-Quinto:#D8DFE8;
+    --Color-Sexto:#00000014;
 }
 
 * {
@@ -16,6 +17,7 @@
     padding: 0;
     background: var(--Color-Primario);
     font-family: var(--Fuente);
+    box-sizing: border-box;
 }
 
 body {
@@ -125,4 +127,16 @@ main {
     border-radius: 24px;
     background: var(--Color-Quinto);
     color: var(--Color-Secundario);
+}
+
+.seccion__derecha{
+    width: 400px;
+    height: 815px;
+    margin-top: 40px;
+    border-radius: 32px;
+    background: var(--Color-Cuarto);
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 24px 32px -8px var(--Color-Sexto);
 }
