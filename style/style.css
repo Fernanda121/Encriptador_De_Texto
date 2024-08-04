@@ -177,7 +177,7 @@ main {
 
 .texto__descifrado {
     width: 400px;
-    height: 815px;
+    height: 781px;
     position: absolute;
     top: 0;
     left: 0;
@@ -191,7 +191,7 @@ main {
     color: var(--Color-Noveno);
     background: transparent;
     outline: none;
-    
+    pointer-events: none
 }
 
 .boton__copiar{
