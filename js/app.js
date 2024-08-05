@@ -1,4 +1,4 @@
-const textoEntrada = document.querySelector(".texto__cifrado");
+const textoEntrada = document.querySelector(".texto__cifrardo");
 const textoSalida = document.querySelector(".texto__descifrado");
 const botonCopiar = document.querySelector(".boton__copiar");
 const contenedorTarjeta = document.querySelector(".tarjeta__contenedor");
