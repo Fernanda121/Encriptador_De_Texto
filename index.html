@@ -20,8 +20,8 @@
                 <p class="texto__aviso">Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="contenedor__botones">
-                <button type="button" class="boton__encriptar">Encriptar</button>
-                <button type="button" class="boton__desencripta">Desencriptar</button>
+                <button type="button" class="boton__encriptar" onclick="encriptarTexto()">Encriptar</button>
+                <button type="button" class="boton__desencripta" onclick="desencriptarTexto()">Desencriptar</button>
             </div>
         </section>
         <section class="seccion__derecha">
@@ -31,12 +31,13 @@
                 <p class="mensaje__dos">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
             <textarea class="texto__descifrado"></textarea>
-            <button type="button" class="boton__copiar">Copiar</button>
+            <button type="button" class="boton__copiar" onclick="copiarTexto()">Copiar</button>
         </section>
     </main>
     <footer>
         <p class="pie__pagina">&copy; copyright 2024 - Encriptador de texto desarrollado por Maria Fernanda Diaz M.</p>
     </footer>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
