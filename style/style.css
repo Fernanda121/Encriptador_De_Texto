@@ -16,6 +16,9 @@
     --Alert-Error1: #F8D7DA;
     --Alert-Error2: #721C24;
     --Alert-Error3: #F30A22;
+    --Alert-Success1: #D4eDDA;
+    --Alert-Success2:#155724;   
+    --Alert-Success3:#C3E6Cb;
 }
 
 * {
@@ -246,4 +249,10 @@ footer{
     background-color: var(--Alert-Error1);
     color: var(--Alert-Error2);
     border: 1px solid var(--Alert-Error3);
+}
+
+.alerta.success{
+    background-color: var(--Alert-Success1);
+    color: var(--Alert-Success2);
+    border: 1px solid var(--Alert-Success3);
 }
