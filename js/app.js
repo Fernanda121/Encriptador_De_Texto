@@ -25,9 +25,9 @@ function encriptarTexto() {
         textoEntrada.value = "";
         botonCopiar.style.visibility = "visible";
         contenedorTarjeta.style.display = "none";
-        alert('Texto encriptado');
+        mensajeAlerta('Texto encriptado','success');
     } else {
-        alert('El texto contiene caracteres inválidos. Use solo letras minúsculas sin acentos.');
+        mensajeAlerta('El texto contiene caracteres inválidos. Use solo letras minúsculas sin acentos.','error');
     }
 }
 
@@ -62,3 +62,18 @@ function copiarTexto() {
         alert("No hay texto para copiar");
     }
 }   
+
+function mensajeAlerta(mensaje , tipo ='error'){
+    const alerta = document.createElement('div');
+    alerta.className = `alerta ${tipo}`;
+    alerta.textContent = mensaje;
+    document.body.appendChild(alerta);
+
+    setTimeout(() =>{
+        alerta.classList.add('mostrar');
+        setTimeout(()=>{
+            alerta.classList.remove('mostar');
+            setTimeout( ()=> alerta.remove(), 300);
+        },3000)
+    },10)
+}
