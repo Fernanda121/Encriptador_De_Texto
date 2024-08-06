@@ -25,7 +25,7 @@ function encriptarTexto() {
         textoEntrada.value = "";
         botonCopiar.style.visibility = "visible";
         contenedorTarjeta.style.display = "none";
-        mensajeAlerta('Texto encriptado','success');
+        mensajeAlerta('Texto Encriptado','success');
     } else {
         mensajeAlerta('El texto contiene caracteres inválidos. Use solo letras minúsculas sin acentos.','error');
     }
@@ -48,18 +48,18 @@ function desencriptarTexto() {
         const textoDesencriptado = desencriptar(texto);
         textoSalida.value = textoDesencriptado;
         textoEntrada.value = "";
-        alert('Texto desencriptado');
+        mensajeAlerta('Texto Desencriptado','success');
     } else {
-        alert("El texto contiene caracteres invalidos. Use solo letras minúsculas sin acento");
+        mensajeAlerta('El texto contiene caracteres inválidos. Use solo letras minúsculas sin acentos.', 'error');
     }
 }
 
 function copiarTexto() {
     const texto = textoSalida.value;
     if(texto){
-        navigator.clipboard.writeText(texto).then(()=> alert("Texto copiado al portapapeles"));
+        navigator.clipboard.writeText(texto).then(()=> mensajeAlerta('Texto copiado al portapapeles', 'success'));
     }else{
-        alert("No hay texto para copiar");
+        mensajeAlerta('Error al copiar el texto', 'error');
     }
 }   
 
