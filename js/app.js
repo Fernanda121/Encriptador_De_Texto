@@ -53,3 +53,12 @@ function desencriptarTexto() {
         alert("El texto contiene caracteres invalidos. Use solo letras minúsculas sin acento");
     }
 }
+
+function copiarTexto() {
+    const texto = textoSalida.value;
+    if(texto){
+        navigator.clipboard.writeText(texto).then(()=> alert("Texto copiado al portapapeles"));
+    }else{
+        alert("No hay texto para copiar");
+    }
+}   
