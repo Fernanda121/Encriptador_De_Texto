@@ -13,6 +13,9 @@
     --Color-Octavo: #343A40;
     --Color-Noveno: #495057;
     --Color-Decimo:#072B61;
+    --Alert-Error1: #F8D7DA;
+    --Alert-Error2: #721C24;
+    --Alert-Error3: #F30A22;
 }
 
 * {
@@ -221,4 +224,26 @@ footer{
 
 .pie__pagina{
     padding: 12px;
+}
+
+.alerta{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.1);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.alerta.mostrar{
+    opacity: 1;
+}
+
+.alerta.error{
+    background-color: var(--Alert-Error1);
+    color: var(--Alert-Error2);
+    border: 1px solid var(--Alert-Error3);
 }
