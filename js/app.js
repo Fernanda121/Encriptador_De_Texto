@@ -77,3 +77,4 @@ function mensajeAlerta(mensaje , tipo ='error'){
         },3000)
     },10)
 }
+
